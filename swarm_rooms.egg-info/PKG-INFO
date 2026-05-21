@@ -9,8 +9,10 @@ Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers
 Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.10
+License-File: LICENSE
 Provides-Extra: gpu
 Requires-Dist: torch>=2.0; extra == "gpu"
 Provides-Extra: dev
 Requires-Dist: pytest>=7.0; extra == "dev"
 Requires-Dist: torch>=2.0; extra == "dev"
+Dynamic: license-file

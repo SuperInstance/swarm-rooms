@@ -1,0 +1,1 @@
+{"name": "@superinstance/swarm-rooms", "version": "0.1.0", "description": "GPU-accelerated multi-agent room simulation with CRDT merge and Eisenstein lattice compression", "license": "MIT"}

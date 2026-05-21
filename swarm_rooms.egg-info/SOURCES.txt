@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 swarm_rooms/__init__.py
