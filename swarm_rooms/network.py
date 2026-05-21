@@ -54,6 +54,9 @@ class SwarmRoomNetwork:
         self.propagation_counts: List[float] = []
         self.attention_entropies: List[float] = []
 
+    def __repr__(self) -> str:
+        return f"SwarmRoomNetwork(agents={self.n_agents}, ctx_dim={self.context_dim}, obs_dim={self.obs_dim}, device={self.device})"
+
     def _build_connections(self, density: float):
         n = self.n_agents
         mask = torch.rand(n, n, device=self.device) < density
