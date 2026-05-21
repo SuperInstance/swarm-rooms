@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+swarm_rooms/__init__.py
+swarm_rooms/eisenstein.py
+swarm_rooms/network.py
+swarm_rooms/py.typed
+swarm_rooms/room_state.py
+swarm_rooms.egg-info/PKG-INFO
+swarm_rooms.egg-info/SOURCES.txt
+swarm_rooms.egg-info/dependency_links.txt
+swarm_rooms.egg-info/requires.txt
+swarm_rooms.egg-info/top_level.txt
+tests/test_swarm.py

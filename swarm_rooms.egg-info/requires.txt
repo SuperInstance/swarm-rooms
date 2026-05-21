@@ -1,0 +1,7 @@
+
+[dev]
+pytest>=7.0
+torch>=2.0
+
+[gpu]
+torch>=2.0

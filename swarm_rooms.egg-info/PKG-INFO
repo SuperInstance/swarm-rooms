@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: swarm-rooms
+Version: 0.1.0
+Summary: GPU-accelerated multi-agent room simulation with CRDT merge and Eisenstein lattice compression
+Author: SuperInstance
+License-Expression: MIT
+Keywords: swarm,multi-agent,gpu,crdt,eisenstein,attention
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Provides-Extra: gpu
+Requires-Dist: torch>=2.0; extra == "gpu"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: torch>=2.0; extra == "dev"

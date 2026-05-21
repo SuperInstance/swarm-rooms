@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swarm-rooms"
+version = "0.1.0"
+description = "GPU-accelerated multi-agent room simulation with CRDT merge and Eisenstein lattice compression"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "SuperInstance"}]
+keywords = ["swarm", "multi-agent", "gpu", "crdt", "eisenstein", "attention"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+gpu = ["torch>=2.0"]
+dev = ["pytest>=7.0", "torch>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["swarm_rooms*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
