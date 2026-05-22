@@ -11,4 +11,7 @@ swarm_rooms.egg-info/SOURCES.txt
 swarm_rooms.egg-info/dependency_links.txt
 swarm_rooms.egg-info/requires.txt
 swarm_rooms.egg-info/top_level.txt
+tests/test_eisenstein_and_room.py
+tests/test_network.py
+tests/test_room_state.py
 tests/test_swarm.py
