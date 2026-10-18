@@ -1,1 +1,14 @@
-{"name": "@superinstance/swarm-rooms", "version": "0.1.0", "description": "GPU-accelerated multi-agent room simulation with CRDT merge and Eisenstein lattice compression", "license": "MIT"}
+{
+  "name": "@superinstance/swarm-rooms",
+  "version": "0.1.2",
+  "description": "GPU-accelerated multi-agent room simulation with CRDT merge and Eisenstein lattice compression",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperInstance/swarm-rooms.git"
+  },
+  "homepage": "https://github.com/SuperInstance/swarm-rooms#readme",
+  "bugs": {
+    "url": "https://github.com/SuperInstance/swarm-rooms/issues"
+  }
+}
